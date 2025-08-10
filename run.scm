@@ -1,0 +1,12 @@
+(specifications->manifest
+  '(
+    "parted"
+    "cryptsetup"
+    "e2fsprogs"
+    "dosfstools"
+    "util-linux"
+    "coreutils"
+    "bash"
+    "grep"
+    "gawk"
+    "sed"))
