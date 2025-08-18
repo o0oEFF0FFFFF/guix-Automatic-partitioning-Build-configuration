@@ -4,15 +4,15 @@
 
 (define user-config
   (cons* (user-account
-                  (name "Usra")
+                  (name "Usera")
                   (comment "Test User")
                   (group "users")
-                  (home-directory "/home/lu96")
+                  (home-directory "/home/Usra")
                   (supplementary-groups '("wheel" "netdev" "audio" "video")))
                 (user-account
                   (name "Userx")
                   (comment "Userx for X server daily use")
                   (group "users")
-                  (home-directory "/home/lu96x")
+                  (home-directory "/home/Userx")
                   (supplementary-groups '("netdev" "audio" "video")))
          %base-user-accounts))
